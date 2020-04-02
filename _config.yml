@@ -8,35 +8,32 @@ tags:
   - jekyll
   - theme
   - netlify
-show_hero: true
+show_hero: false
 menu:
   - title: Home
     url: /
+  - title: Art
+    url: /feed.xml
+  - title: Project
+    url: /feed.xml
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@xyz.com
-disqus_username: disqus_username
+email: 906130960@qq.com
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
-
+# Social Media Settings
+github_username: llapuras
+twitter_username: chenwanwan13
+linkedin_username: zoe-chen-5a0043b5
+pinterest_username: 0lz5u31oywkxqw1
 
 # Posts Settings
-show_time_bar: true
+show_time_bar: false
 show_modal_on_exit: false
-show_modal_on_finish_post: true
-two_columns_layout: true
+show_modal_on_finish_post: false
+two_columns_layout: false
 
 
 # Advanced Settings
@@ -49,6 +46,8 @@ sent_message_url: "/contact/message-sent/"
 
 
 # Build settings
+name: Legendary Lapuras
+title: Legendary Lapuras
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
@@ -58,6 +57,22 @@ collections:
 paginate_path: "/page/:num/"
 show_get_theme_btn: true
 use_logo: false
+
+menu:
+  - title: Home
+    url: /
+  - title: Art
+    url: /feed.xml
+  - title: Project
+    url: /feed.xml
+  - title: About
+    url: /about
+email: 906130960@qq.com
+
+# Social Media Settings
+github_username: llapuras
+twitter_username: chenwanwan13
+linkedin_username: zoe-chen-5a0043b5
 
 # Content paginator
 paginate_content:

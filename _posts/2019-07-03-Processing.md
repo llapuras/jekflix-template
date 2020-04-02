@@ -1,16 +1,15 @@
 ---
-date: 2018-04-21 12:26:40
+date: 2020-03-22 12:26:40
 layout: post
-title: Candy, candies, candy!
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822137/theme11_vei7iw.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822137/theme11_vei7iw.jpg
-category: diet
+title: Processing作画
+subtitle: 有趣的图形编程语言。
+description: 
+#image: https://c-ssl.duitang.com/uploads/item/202004/02/20200402122700_elsZt.thumb.600_0.jpeg
+optimized_image: https://c-ssl.duitang.com/uploads/item/202004/02/20200402141534_LVVEX.thumb.600_0.gif
+category: demo
 tags:
-  - food
-  - tips
-author: thiagorossener
+  - demo
+author: llapuras13
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
@@ -124,7 +123,6 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 </table>
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
 
 
 

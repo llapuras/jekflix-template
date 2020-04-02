@@ -7,15 +7,14 @@ tags:
   - jekyll
   - theme
   - netlify
-show_hero: true
+show_hero: false
 menu:
   - title: Home
     url: /
+  - title: Art
+    url: /feed.xml
+  - title: Project
+    url: /feed.xml
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@xyz.com
-disqus_username: disqus_username
+email: 906130960@qq.com
