@@ -1,5 +1,5 @@
-name: Diego
-title: Coflow
+name: Llapuras
+title: Llapuras
 description: Diegofornalha
 tags:
   - blog
@@ -16,5 +16,5 @@ menu:
   - title: Project
     url: /feed.xml
   - title: About
-    url: /about
+    url: /awsl
 email: 906130960@qq.com

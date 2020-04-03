@@ -48,6 +48,10 @@ layout: page
 {% if page.linkedin_username %}
     {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: page.linkedin_username | append: '",' %}
 {% endif %}
+{% if author.pinterest_username %}
+    {% assign author_urls = author_urls | append: '"https://www.pinterest.com/' | append: author.pinterest_username | append: '",' %}
+{% endif %}
+
 
 <script type="application/ld+json">
 {

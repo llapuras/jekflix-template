@@ -35,11 +35,6 @@ menu:
     url: /about
 email: 906130960@qq.com
 
-# Social Media Settings
-github_username: llapuras
-twitter_username: chenwanwan13
-linkedin_username: zoe-chen-5a0043b5
-
 # Content paginator
 paginate_content:
   enabled: true
