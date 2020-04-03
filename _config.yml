@@ -61,10 +61,6 @@ use_logo: false
 menu:
   - title: Home
     url: /
-  - title: Art
-    url: /feed.xml
-  - title: Project
-    url: /feed.xml
   - title: About
     url: /about
 email: 906130960@qq.com

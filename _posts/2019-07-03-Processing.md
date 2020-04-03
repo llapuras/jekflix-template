@@ -1,134 +1,45 @@
 ---
-date: 2020-03-22 12:26:40
+date: 2019-07-22 12:26:40
 layout: post
 title: Processing作画
 subtitle: 有趣的图形编程语言。
-description: 
+description: 有趣的图形编程语言。随便画画。
 #image: https://c-ssl.duitang.com/uploads/item/202004/02/20200402122700_elsZt.thumb.600_0.jpeg
-optimized_image: https://c-ssl.duitang.com/uploads/item/202004/02/20200402141534_LVVEX.thumb.600_0.gif
-category: demo
+optimized_image: https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/heartbeat/heartbeat.gif
+category: art
 tags:
-  - demo
+  - art
+  - processing
+  - graphics
 author: llapuras13
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+### heartbeat
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+![](https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/heartbeat/heartbeat.gif)
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+<hr>
 
-## Inline HTML elements
+### colorful blocks
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+![](https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/blocks/1.png)
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+![](https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/blocks/2.png)
 
-Most of these elements are styled by browsers with few modifications on our part.
+![](https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/blocks/3.png)
 
-# Heading 1
+![](https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/blocks/4.png)
 
-## Heading 2
+![](https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/blocks/5.png)
 
-### Heading 3
+<hr>
 
-#### Heading 4
+### fallen cubes
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+![](https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/generativeArt/block003/block003.gif)
 
-## Code
+<hr>
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+### blue bubbles
 
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-
-
-
-
-
-
-
-
+![](https://github.com/llapuras/ProcessingDraw/blob/master/generativeArt/block002/block002.gif?raw=true)
