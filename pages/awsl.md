@@ -11,4 +11,12 @@ description: Some description.
 
 # 关于我
 
-光之战士。
+光之跑腿者/鸽子装修工/铲屎官/二刺螈/独立游戏爱好者/失业中
+
+<hr>
+
+欢迎加Steam和Switch好友一起玩耍σ ﾟ∀ ﾟ) ﾟ∀ﾟ)σ <br>
+steam ID：Legendary Lapuras<br>
+switch ID：sw-5454-4244-2717
+
+
