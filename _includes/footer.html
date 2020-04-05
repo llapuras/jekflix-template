@@ -35,7 +35,7 @@
     {% include links.html %}
 
     <p>
-      <span>Jekflix</span> was made with <svg class="love"><use xlink:href="#icon-heart"></use></svg> by <a href="https://rossener.com" target="_blank" class="creator">Thiago Rossener</a>
+      <span>Llapuras</span> <svg class="love"><use xlink:href="#icon-heart"></use></svg> by 阿尔芙咸
     </p>
 </footer>
 
@@ -57,6 +57,9 @@
 {% endif %}
 {% if site.linkedin_username %}
     {% assign social_urls = social_urls | append: '"https://www.linkedin.com/in/' | append: site.linkedin_username | append: '",' %}
+{% endif %}
+{% if site.pinterest_username %}
+    {% assign social_urls = social_urls | append: '"https://www.pinterest.com/' | append: site.pinterest_username | append: '",' %}
 {% endif %}
 
 <script type="application/ld+json">
