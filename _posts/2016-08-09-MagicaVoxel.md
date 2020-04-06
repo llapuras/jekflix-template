@@ -5,19 +5,27 @@ title: 【MV】黑子の篮球全员
 subtitle: MagicaVoxel制作
 description: MagicaVoxel制作。
 #image: https://img.tapimg.com/market/images/ac26567093b67b31e9d169853a701be7.PNG?imageView2/2/h/560/q/80/format/jpg/interlace/1/ignore-error/1
-optimized_image: https://img.tapimg.com/market/images/ac26567093b67b31e9d169853a701be7.PNG?imageView2/2/h/560/q/80/format/jpg/interlace/1/ignore-error/1
-category: game
+optimized_image: ../assets/img/model/title.png
+category: 3D Model
 tags:
-  - gamejam
-  - demo
+  - 3dmodel
+  - magicavoxel
+  - blender
 author: llapuras13
 ---
 
-<div class="sketchfab-embed-wrapper">
-    <iframe title="A 3D model" width="640" height="480" src="https://sketchfab.com/models/cb7e675e441f4a518117863145d33514/embed?preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-        <a href="https://sketchfab.com/3d-models/kuroko-cb7e675e441f4a518117863145d33514?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Kuroko</a>
-        by <a href="https://sketchfab.com/LegendaryLapuras?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">LegendaryLapuras</a>
-        on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-    </p>
-</div>
+黑子的篮球全员体素小人･ิ≖ ω ≖･ิ✧
+
+![](../assets/img/model/kuroko.png)
+
+![](../assets/img/model/dakai.png)
+
+![](../assets/img/model/kisei.png)
+
+![](../assets/img/model/midori.png)
+
+![](../assets/img/model/murasaki.png)
+
+![](../assets/img/model/akashi.png)
+
+![](../assets/img/model/momoi.png)
