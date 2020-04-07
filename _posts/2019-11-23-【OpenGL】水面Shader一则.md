@@ -27,7 +27,7 @@ Shadertoy和OpenGL用的都是GLSL着色器语言，只有少许差异。
 
 但是！就是张贴图而已，只是挑了个特殊角度截了个看起来很像样的图(╯·_·)╯︵┻━┻
 
-修改后把水面效果应用到一张Plane Mesh上，但是最终还是没能加上高度差变化，Fake Water实锤。
+修改后把水面效果应用到一张Plane Mesh上，但是最终还是没能加上高度差变化，Fake Water实锤。经过了一点魔改，水波系数过大的时候看起来会莫名像是云朵在水里的倒影emmmm
 
 ![](../assets/img/opengl/waterwave.gif)
 
