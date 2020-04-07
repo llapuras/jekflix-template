@@ -11,6 +11,7 @@ tags:
   - art
   - processing
   - graphics
+  - python
 author: llapuras13
 ---
 
