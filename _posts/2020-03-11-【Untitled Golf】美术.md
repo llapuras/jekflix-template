@@ -42,4 +42,14 @@ author: llapuras13
 
 ### 活动地图
 
-活动地图由大小一致的不同单位地块构成。
+活动地图由大小一致的不同单位地块构成。最终使用大佬的地图编辑器生成地图。
+
+![](../assets/img/game/golfgame/mapblock.png)
+
+一个示例关卡：
+
+![](../assets/img/game/golfgame/sample.png)
+
+### 装饰❤
+
+![](../assets/img/game/golfgame/decos.gif)
