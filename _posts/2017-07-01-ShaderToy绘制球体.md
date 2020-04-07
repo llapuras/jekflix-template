@@ -6,12 +6,12 @@ subtitle:
 description: 
 #image: https://c-ssl.duitang.com/uploads/item/202004/02/20200402122700_elsZt.thumb.600_0.jpeg
 optimized_image: ../assets/img/opengl/stsphere.png
-category: Art
+category: Graphics
 tags:
-  - art
-  - processing
-  - graphics
-  - python
+  - grapics
+  - shadertoy
+  - shader
+  - glsl
 author: llapuras13
 ---
 
