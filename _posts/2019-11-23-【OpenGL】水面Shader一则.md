@@ -21,7 +21,7 @@ Shadertoy和OpenGL用的都是GLSL着色器语言，只有少许差异。
 
 在原有项目的基础上添加了水面vertex和frag shader文件。
 
-碎碎念，直接搬运的话效果如下图...
+碎碎念，直接搬运的话效果如下图——完全一样!
 
 ![](../assets/img/opengl/water_opgl.jpg)
 
@@ -31,5 +31,5 @@ Shadertoy和OpenGL用的都是GLSL着色器语言，只有少许差异。
 
 ![](../assets/img/opengl/waterwave.gif)
 
-只论视觉效果还凑合啦。
+俯瞰的视觉效果其实还凑合啦。
 
