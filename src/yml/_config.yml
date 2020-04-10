@@ -27,6 +27,12 @@ use_logo: false
 menu:
   - title: Home
     url: /
+  - title: Article
+    url: /article
+  - title: Project
+    url: /project
+  - title: Art
+    url: /art
   - title: About
     url: /about
 email: 906130960@qq.com
