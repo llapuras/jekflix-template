@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Music
+title: music
 slug: music
 description: A category for music related posts.
 ---

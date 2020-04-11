@@ -8,13 +8,16 @@ tags:
   - theme
   - netlify
 show_hero: false
+
 menu:
   - title: Home
     url: /
-  - title: Art
-    url: /feed.xml
+  - title: Article
+    url: /category/article/
   - title: Project
-    url: /feed.xml
+    url: /category/project/
+  - title: Art
+    url: /category/art/
   - title: About
-    url: /awsl
+    url: /about
 email: 906130960@qq.com

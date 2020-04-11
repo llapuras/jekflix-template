@@ -6,7 +6,7 @@ subtitle: Blender制作的弹球游戏美术素材
 description: Blender制作的弹球游戏美术素材
 #image: ../assets/img/game/golfgame/ballsdeco.gif
 optimized_image: ../assets/img/game/golfgame/ballsdeco.gif
-category: Art
+category: art
 tags:
   - 3dmodel
   - blender

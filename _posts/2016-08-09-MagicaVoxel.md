@@ -6,7 +6,7 @@ subtitle: MagicaVoxel制作
 description: MagicaVoxel制作。
 #image: https://img.tapimg.com/market/images/ac26567093b67b31e9d169853a701be7.PNG?imageView2/2/h/560/q/80/format/jpg/interlace/1/ignore-error/1
 optimized_image: ../assets/img/model/title.png
-category: 3D Model
+category: art
 tags:
   - 3dmodel
   - magicavoxel

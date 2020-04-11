@@ -6,7 +6,7 @@ subtitle:
 description: 
 optimized_image: ../assets/img/opengl/waterwave.gif
 image: ../assets/img/opengl/waterwave.gif
-category: Coding
+category: tech
 tags:
   - opengl
   - graphics
