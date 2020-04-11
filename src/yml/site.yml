@@ -10,8 +10,6 @@ tags:
 show_hero: false
 
 menu:
-  - title: 主页
-    url: /
   - title: 文章
     url: /category/article/
   - title: 游戏
