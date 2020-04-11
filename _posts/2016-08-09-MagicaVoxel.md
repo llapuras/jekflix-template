@@ -4,8 +4,8 @@ layout: post
 title: 【MV】黑子の篮球全员
 subtitle: MagicaVoxel制作
 description: MagicaVoxel制作。
-#image: https://img.tapimg.com/market/images/ac26567093b67b31e9d169853a701be7.PNG?imageView2/2/h/560/q/80/format/jpg/interlace/1/ignore-error/1
-optimized_image: ../assets/img/model/title.png
+image: /assets/img/model/title.png
+#optimized_image: /assets/img/model/title.png
 category: art
 tags:
   - 3dmodel

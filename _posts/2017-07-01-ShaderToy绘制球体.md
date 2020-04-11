@@ -4,8 +4,8 @@ layout: post
 title: ShaderToy绘制球体
 subtitle: 
 description: 
-#image: https://c-ssl.duitang.com/uploads/item/202004/02/20200402122700_elsZt.thumb.600_0.jpeg
-optimized_image: ../assets/img/opengl/stsphere.png
+image: /assets/img/opengl/stsphere.png
+optimized_image: /assets/img/opengl/stsphere.png
 category: tech
 tags:
   - grapics

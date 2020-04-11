@@ -4,8 +4,8 @@ layout: post
 title: Processing作画
 subtitle: 有趣的图形编程语言。
 #description: 
-#image: https://c-ssl.duitang.com/uploads/item/202004/02/20200402122700_elsZt.thumb.600_0.jpeg
-optimized_image: https://raw.githubusercontent.com/llapuras/ProcessingDraw/master/heartbeat/heartbeat.gif
+image: /assets/img/opengl/heartbeat.gif
+optimized_image: /assets/img/opengl/heartbeat.gif
 category: art
 tags:
   - processing

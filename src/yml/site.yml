@@ -10,14 +10,18 @@ tags:
 show_hero: false
 
 menu:
-  - title: Home
+  - title: 主页
     url: /
-  - title: Article
+  - title: 文章
     url: /category/article/
-  - title: Project
+  - title: 游戏
     url: /category/project/
-  - title: Art
+  - title: 艺术
     url: /category/art/
-  - title: About
+  - title: 代码
+    url: /category/tech/
+  - title: 杂
+    url: /category/other/
+  - title: 关于我
     url: /about
 email: 906130960@qq.com

@@ -4,8 +4,8 @@ layout: post
 title: 【OpenGL】水面Shader一则
 subtitle: 
 description: 
-optimized_image: ../assets/img/opengl/waterwave.gif
-image: ../assets/img/opengl/waterwave.gif
+optimized_image: /assets/img/opengl/waterwave.gif
+image: /assets/img/opengl/waterwave.gif
 category: tech
 tags:
   - opengl

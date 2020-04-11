@@ -4,9 +4,10 @@ layout: post
 title: 【Untitled Golf】美术
 subtitle: Blender制作的弹球游戏美术素材
 description: Blender制作的弹球游戏美术素材
-#image: ../assets/img/game/golfgame/ballsdeco.gif
-optimized_image: ../assets/img/game/golfgame/ballsdeco.gif
+image: /assets/img/game/golfgame/ballsdeco.gif
+optimized_image: /assets/img/game/golfgame/ballsdeco.gif
 category: art
+baseurl: /art
 tags:
   - 3dmodel
   - blender
