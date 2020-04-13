@@ -147,5 +147,28 @@
             "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
         }
         </script>
+
+        
+        <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+
+        <script>
+
+            const ct = document.querySelector('.post-content');
+            scrollnav.init(ct, { 
+                debug: false,
+                easingStyle: 'linear',
+                sections: ($('.post-content > h1').length>0) ? 'h3' : 'h4',
+                //subSections: ($('.post-content > h1').length>0) ? 'h4' : 'h5',
+            });
+        </script>
+
+        <script>
+            
+            const ct = document.getelementbyid('.&:before -content');
+            
+        </script>
+        <style>
+
+     </style>
     </body>
 </html>
