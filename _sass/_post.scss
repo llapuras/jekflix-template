@@ -753,6 +753,8 @@
   line-height: 20px;
 }
 
+
+
 .scroll-nav__item {
   margin-bottom: 5px;
   list-style-type: none;
@@ -767,7 +769,7 @@
   text-decoration: none;
   //transition: 0.5s;
   &:hover{
-      color:$white
+      color:$black
   }
 }
 
