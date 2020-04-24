@@ -1,8 +1,9 @@
 # Site Settings
 name: Llapuras
 title: Llapuras
-description: Diegofornalha
+description: awsl
 tags:
+  - graphcis
   - blog
   - template
   - jekyll
@@ -46,6 +47,7 @@ url: "" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
+tags_folder: tags
 sent_message_url: "/contact/message-sent/"
 
 
