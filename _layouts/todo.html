@@ -5,211 +5,174 @@
     <title>To Do List</title>
     <link rel="icon" href=""/>
 </head>
+
 <body>
-<div class="header">
-    <div id="title">
-        <img src=""/>
+
+<div class="bg">
+
+    <!-- <div class="header"> 
+       <img src="\assets\img\post\acnh\milesfurniture\logo.png" />
+    </div>       -->
+       
+    
+    <input class="button" type="button" onclick="addingImages()" value="里程家具"></button>
+
+
+    <div class="frame">
+
     </div>
-</div>
-<div class="container">
-    <div id="inputList">
-        <input title="todo" id="txt" type="text" onkeypress="enterPress(event)"/>
-        <button id="btn1">TO DO</button>
-    </div>
-    <h3>还有 <span id="count" class="warning">0</span> 项未完成</h3>
-    <div id="showList" class="show">
-    </div>
-    <h3>已经完成 <span id="overCount" class="success">0</span> 项</h3>
-    <div id="overList" class="show">
-    </div>
-</div>
-<div class="foot">
-    <span id="nowTime">Now Time : 00:00:00</span>
+
+    <div class="test"></div>
+
 </div>
 
-<script>
- setInterval(showTime,1000);
-var txt = document.getElementById("txt"),
-    btn = document.getElementById("btn1"),
-    show = document.getElementById("showList"),
-    count = document.getElementById("count");
 
-btn.addEventListener("click", addList, false);
+<!---paste-->
 
-/* 读取本地存储中的list */
-count.innerHTML = localStorage.length;
-for (var i = 0, len = localStorage.length; i < len; i++) {
-    var list = document.createElement("div"),
-        key = localStorage.key(i),
-        val = localStorage[key];
-    list.setAttribute("class", "lists");
-    list.setAttribute("data-hex", key);
-    list.innerHTML = key + " ： " + val;
-    list.addEventListener("click", function yy() {
-        if (confirm("这项任务已经完成 ? ")) {
-            this.parentNode.removeChild(this);
-            document.getElementById("overList").appendChild(this);
-            var countOver = document.getElementById("overCount");
-            countOver.innerHTML = parseInt(countOver.innerHTML) + 1;
-            this.setAttribute("class", "overLists");
-            var count = document.getElementById("count");
-            count.innerHTML = parseInt(count.innerHTML) - 1;
-            var key = this.getAttribute("data-hex");
-            localStorage.removeItem(key);
-            this.removeEventListener("click", yy, false);
-        }
-    }, false);
-    show.insertBefore(list, show.childNodes[0]);
-}
+<script>  
 
-/* 添加到list */
-function addList() {
-    if (txt.value.trim() != "") {
-        var list = document.createElement("div"),
-            date = new Date().toLocaleString(),
-            time = new Date();
-        list.setAttribute("class", "lists");
-        list.innerHTML = ten(time.getHours())+":"+ten(time.getMinutes())+":"+ten(time.getSeconds())+" ： " + txt.value;
-        list.setAttribute("data-hex", date);
-        localStorage.setItem(date, txt.value);
-        list.addEventListener("click", function xx() {
-            if (confirm("这项任务已经完成 ? ")) {
-                //this.parentNode.removeChild(this);
-                document.getElementById("overList").appendChild(this);
-                var countOver = document.getElementById("overCount");
-                countOver.innerHTML = parseInt(countOver.innerHTML) + 1;
-                this.setAttribute("class", "overLists");
-                localStorage.removeItem(date);
-                var count = document.getElementById("count");
-                if (parseInt(count.innerHTML) > 0) {
-                    count.innerHTML = parseInt(count.innerHTML) - 1;
+    function addingImages() {
+        var i = 1;//物品id，初始id为1
+        var j = 1;//换色数量，初始为1
+    
+        for(i=1;i<=21;i++){
+            var li = document.createElement("div");//同类家具
+            li.className = "miles-furniture-" + i;
+            document.querySelector(".frame").appendChild(li); //添加家具列表
+
+            for(j=1;j<=8;j++){
+
+                var image = document.createElement("img");
+                image.setAttribute("src", "/assets/img/post/acnh/milesfurniture/" + i + "0" + j + ".png");
+
+                if (image.fileSize > 0 || (image.width > 0 && image.height > 0)){
+                    var item = document.createElement("div");
+                    item.className = "furniture-item-"+ i + "0" + j;
+                    item.id = "furniture-item";
+
+                    var label = document.createElement("label");
+                    label.setAttribute('for', 'm' + i + "0" + j);
+                    label.id = 'm' + i + "0" + j;
+
+                    var itembox = document.createElement("input");
+                    itembox.setAttribute('type', 'radio');
+                    itembox.setAttribute('value', i + "0" + j);
+                    itembox.setAttribute('name',  "alfx"+i); //mei
+                    itembox.setAttribute('id', 'm' + i + "0" + j);
+
+                    document.querySelector(".miles-furniture-"+ i).appendChild(item);
+                    document.querySelector(".furniture-item-"+ i + "0" + j ).appendChild(label);
+                    document.querySelector(".furniture-item-"+ i + "0" + j ).appendChild(itembox);
+                        
+                    document.querySelector("#m" + i + '0' + j).appendChild(image);
                 }
-                this.removeEventListener("click", xx, false);
             }
-        }, false);
-        show.insertBefore(list, show.childNodes[0]);
-        count.innerHTML = parseInt(count.innerHTML) + 1;
-        txt.value = "";
-    } else {
-        alert("what to do ?!");
+        }   
     }
-}
+    
+</script> 
+    
 
-/* 小于十前面加0 */
-function ten(num){
-    if(parseInt(num)<10){
-        return "0"+num;
-    }else{
-        return num;
-    }
-}
+<!---paste-->
+<style>
 
-function enterPress(e) { //使用enter实现同样的功能
-    var event = e || window.event;
-    if (event.keyCode == 13) {
-        addList();
-    }
-}
-
-function showTime(){
-    var time = new Date(),
-        span = document.getElementById("nowTime");
-    span.innerHTML = "Now Time : "+ten(time.getHours())+":"+ten(time.getMinutes())+":"+ten(time.getSeconds());
-
-}
-</script>
-
-<style> 
-.lists{
-    padding: 20px;
-    margin: 10px;
-    background-color: #FFF8BF;
-    box-shadow: 5px 4px 10px 2px gray;
-    border-left: 10px #4078C0 solid;
-}
-.overLists{
-    padding: 20px;
-    margin: 10px;
-    background-color: rgba(209, 252, 181,0.5);
-    color: #8F8F8F;
-    /*box-shadow: 5px 4px 10px 2px gray;*/
-    border-left: 10px #4078C0 solid;
-}
-.show{
-    width: 500px;
-    margin:0 auto;
-}
-#inputList{
-    width: 392px;
-    margin:0 auto;
-}
-#showList{
-    border-bottom: 1px solid #8B8B8B;
-    padding-bottom: 20px;
-}
-
-.success{
-    color: #5CB85C;
-}
-.warning {
-    color: #D9534F;
-}
-
-#txt {
-    padding: 5px 10px 5px 10px;
-    width: 300px;
-    font-size: large;
-    border: 1px solid #B8B8B8;
-}
-#txt:focus{
-    border:1px solid #3385FF;
-}
-#btn1{
-    width: 70px;
-    height: 35px;
-    margin-left:-5px;
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .header{
-    height: 50px;
-    width: 100%;
-    background-color: #bbdad1;
-    position: fixed;
-    top:0;
-}
-.container{
-    width: 650px;
-    margin:100px auto;
-    padding: 20px;
-    background-color: rgba(190,190,190,0.5);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-}
-.foot{
-    font-size: large;
     text-align: center;
-    width: 200px;
-    margin:50px auto;
-    padding: 20px;
-    background-color: rgba(190,190,190,0.5);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;;
+    
 }
-body {
-    /*background-color: #F5F5F5;*/
-    background-image: url();
-    margin:0;
-    padding: 0;
+
+.bg{
+    padding:20px;
+    width: 80%;
+    height: auto;
+    position: relative;
+    top:50%;
+    background-color: rgb(255, 243, 210);
+    border-radius: 10px;
 }
-#my{
-    float: right;
-    color:#B8B8B8;
-    padding: 30px 10px 0 0;
+
+.miles-furniture{
+    margin: 20px 20px 20px 20px;
+    list-style-type: none;
+    position:relative;
+
+    background-color: rgb(179, 184, 151);
+    width: 80%;
+    border-radius: 10px;
 }
+
+#furniture-item {
+    display: inline-block;
+}
+ 
+input[type="radio"][id^="m"] {
+  display: none;
+}
+
+label {
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+label:before {
+  text-align:center;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+/*   border: 1px solid grey; */
+  position: absolute;
+  top:10px;
+  left: 10px;
+  z-index:1;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  transform: scale(1.3);
+  z-index: -1;
+}
+
+label img {
+  height: 100px;
+  width: 100px;
+  transform-origin: 50% 50%;
+  border-radius: 10%;
+}
+
+:checked + label {
+  border-color: #eee;
+}
+
+:checked + label:before {
+  content: "✓";
+  transform: scale(1.1);
+}
+
+:checked + label img {
+  transform: scale(1.1);
+  box-shadow: 0 0 3px #333;
+  background-color: rgba(204, 255, 145, 0.4);
+  z-index: 1;
+}
+
 </style>
 
 
 </body>
-</html>
