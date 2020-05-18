@@ -9,14 +9,14 @@ description: Some description.
 
 <img class="img-rounded" src="/assets/img/uploads/profile.jpg" width="200">
 
+![](/assets/img/line.png)
+
 # 关于我
 
-游戏策划/光之跑腿者/鸽子装修工/铲屎官/二刺螈/独立游戏爱好者/失业中
+``游戏策划(失业中)`` ``独游开发者`` ``光之跑腿者(兼鸽子装修工)`` ``铲屎官`` ``二次元``
 
-<hr>
-
-欢迎加Steam和Switch好友一起玩耍σ ﾟ∀ ﾟ) ﾟ∀ﾟ)σ <br>
-steam ID：Legendary Lapuras<br>
-switch ID：sw-5454-4244-2717
+欢迎加steam和switch好友一起玩耍σ ﾟ∀ ﾟ) ﾟ∀ﾟ)σ <br>
+**steam ID**：Legendary Lapuras<br>
+**switch ID**：sw-5454-4244-2717
 
 
