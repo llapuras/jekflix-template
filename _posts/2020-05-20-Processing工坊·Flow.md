@@ -2,10 +2,10 @@
 date: 2020-05-19 12:26:40
 layout: post
 title: Processing工坊·Flow
-subtitle: 有趣的图形编程语言。
-#description: 
+subtitle: 扭扭曲曲。
+description: 扭扭曲曲。
 image: /assets/img/graphics/flow01.jpg
-optimized_image: /assets/img/graphics/processing/flow01.jpg
+optimized_image: /assets/img/graphics/processing/flow02.png
 category: art
 tags:
   - processing
@@ -17,6 +17,8 @@ author: llapuras13
 
 ### Flow
 
+![flow](/assets/img/graphics/processing/flow00.jpg)
+
 ![flow](/assets/img/graphics/processing/flow01.jpg)
 
 ![flow](/assets/img/graphics/processing/flow05.jpg)
@@ -25,7 +27,11 @@ author: llapuras13
 
 ![flow](/assets/img/graphics/processing/flow03.jpg)
 
+![flow](/assets/img/graphics/processing/flow07.jpg)
+
 ![flow](/assets/img/graphics/processing/flow04.jpg)
+
+![flow](/assets/img/graphics/processing/flow06.jpg)
 
 ![](/assets/img/line.png)
 
