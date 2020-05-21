@@ -13,20 +13,6 @@ tags:
 author: llapuras13
 ---
 
-![](/assets/img/line.png)
-
-### 思路
-
-- **起始点：**
-
-- **线段步长：**
-
-- **单簇密度：**
-
-- **整体密度：**
-
-![](/assets/img/line.png)
-
 ### Flow
 
 ![flow](/assets/img/graphics/processing/flow00.jpg)
