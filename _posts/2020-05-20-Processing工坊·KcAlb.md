@@ -1,7 +1,7 @@
 ---
 date: 2020-05-20 12:26:40
 layout: post
-title: Processing工坊·Kirakira
+title: Processing工坊·KcAlb
 subtitle: 标题是瞎取的，以及...有了Processing就可以偷懒啦！（不是
 description: 标题是瞎取的，以及...有了Processing就可以偷懒啦！（不是
 image: /assets/img/graphics/processing/gradient/pix.jpg
