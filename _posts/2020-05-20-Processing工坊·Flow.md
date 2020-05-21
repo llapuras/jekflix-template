@@ -2,8 +2,8 @@
 date: 2020-05-19 12:26:40
 layout: post
 title: Processing工坊·Flow
-subtitle: 扭扭曲曲。
-description: 扭扭曲曲。
+subtitle: 标题是瞎取的，以及...有了Processing就可以偷懒啦！（不是
+description: 标题是瞎取的，以及...有了Processing就可以偷懒啦！（不是
 image: /assets/img/graphics/flow01.jpg
 optimized_image: /assets/img/graphics/processing/flow02.png
 category: art
@@ -12,6 +12,18 @@ tags:
   - graphics
 author: llapuras13
 ---
+
+![](/assets/img/line.png)
+
+### 思路
+
+- **起始点：**
+
+- **线段步长：**
+
+- **单簇密度：**
+
+- **整体密度：**
 
 ![](/assets/img/line.png)
 
