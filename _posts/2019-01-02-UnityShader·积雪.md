@@ -7,7 +7,7 @@ description:
 image: /assets/img/graphics/shader/rim.gif
 #optimized_image: /assets/img/opengl/spongebob.jpg
 category: tech
-published: false
+published: true
 tags:
   - graphics
   - unity
