@@ -22,5 +22,5 @@ author: llapuras13
 
 ### 1st Try
 
-![](/assets/img/graphics/processing/starry/1.jpg)
+![](/assets/img/graphics/processing/starry/1.png)
 
