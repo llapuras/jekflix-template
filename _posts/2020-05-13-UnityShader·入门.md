@@ -4,7 +4,7 @@ layout: post
 title: UnityShader·入门
 subtitle: shaderlab速查手册
 description: shaderlab速查手册
-image: /assets/img/graphics/shader/rim.gif
+image: /assets/img/graphics/shader/cover0.png
 #optimized_image: /assets/img/opengl/spongebob.jpg
 category: tech
 published: true
@@ -80,13 +80,34 @@ Shader "ShaderName"
 
 两者的主要区别在于vert/frag shader没有物理语义，包括albedo，gloss，specular都不会在这个层面呈现。而surface shader的输出结构（``SurfaceOutput``等）则包含了这些内容。
 
-Surface shader可以指定光照模型，shader中通常会有一个叫surf的函数，在此计算输出颜色，再将其输入光照模型获得最后的结果。所有的Surface shader被编译时都会转化成vert/frag shader，即surface shader是Unity提供的一种简易shader写法。
+Surface shader**可以指定光照模型**，shader中通常会有一个叫surf的函数，在此计算输出颜色，再将其输入光照模型获得最后的结果。所有的Surface shader被编译时都会转化成vert/frag shader，即surface shader是Unity提供的一种简易shader写法。
 
-Vertex/Fragment则没有内置光照模型的概念，更适合用在非现实渲染、2D图形和后期处理上。（当然也可以在里头写光照只是相对不大方便）。
+Vertex/Fragment则没有内置光照模型的概念，更适合用在非现实渲染、2D图形和后期处理上。（当然也可以在里头写光照只是相对不大方便）
 
 ![](https://www.alanzucconi.com/wp-content/uploads/2015/06/Surface-shader.png)
 
 ![](https://www.alanzucconi.com/wp-content/uploads/2015/06/Vertex-and-Fragment-shader.png)
+
+### Surface Shader
+
+```cpp
+Shader "Example/Diffuse Simple" {
+    SubShader {
+      Tags { "RenderType" = "Opaque" }
+      CGPROGRAM
+      #pragma surface surf Lambert
+      struct Input {
+          float4 color : COLOR;
+      };
+      void surf (Input IN, inout SurfaceOutput o) {
+          o.Albedo = 1; // 1 = (1,1,1,1) = white
+      }
+      ENDCG
+    }
+    Fallback "Diffuse"
+  }
+```
+
 
 ![](/assets/img/line.png)
 
