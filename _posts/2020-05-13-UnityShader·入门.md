@@ -74,9 +74,11 @@ Shader "ShaderName"
  }
 ```
 
-- **[Fallback](https://docs.unity3d.com/Manual/SL-Fallback.html)：**定义在SubShader之后，如果没有一个SubShader能被执行，U3D就会执行Fallback的函数
+- **[Fallback](https://docs.unity3d.com/Manual/SL-Fallback.html)：**定义在SubShader之后，如果没有一个SubShader能被执行，U3D就会执行Fallback的函数。
 
-### Surface vs. Vertex/Fragment
+![](/assets/img/line.png)
+
+### Surf vs. Vert/Frag
 
 两者的主要区别在于vert/frag shader没有物理语义，包括albedo，gloss，specular都不会在这个层面呈现。而surface shader的输出结构（``SurfaceOutput``等）则包含了这些内容。
 
@@ -88,26 +90,30 @@ Vertex/Fragment则没有内置光照模型的概念，更适合用在非现实�
 
 ![](https://www.alanzucconi.com/wp-content/uploads/2015/06/Vertex-and-Fragment-shader.png)
 
+![](/assets/img/line.png)
+
 ### Surface Shader
 
-```cpp
-Shader "Example/Diffuse Simple" {
-    SubShader {
-      Tags { "RenderType" = "Opaque" }
-      CGPROGRAM
-      #pragma surface surf Lambert
-      struct Input {
-          float4 color : COLOR;
-      };
-      void surf (Input IN, inout SurfaceOutput o) {
-          o.Albedo = 1; // 1 = (1,1,1,1) = white
-      }
-      ENDCG
-    }
-    Fallback "Diffuse"
-  }
-```
+声明surface function，将需要的数据输入shader并进行计算，最终打包以``SurfaceOutput``格式输出。``SurfaceOutput``会定义有关表面的各项属性，包括albedo、normal、emission、specularity等。
 
+一个[surf shader](https://docs.unity3d.com/Manual/SL-SurfaceShaders.html)中必须包含的内容有二：
+- **surfaceFunction：**这个func必须包含一个``void surf(Input IN, inout SurfaceOutput o)``。
+- **lightModel：**可以使用built-in或[自己写](https://docs.unity3d.com/Manual/SL-SurfaceShaderLighting.html)的光照模型。常用的内置模型有``Standard``、``StandardSpecular ``、``Lambert ``、``BlinnPhong ``。例如``#pragma surface surf Lambert``声明了该shader是``surf``shader，光照模型用的是Lambert。
+
+
+其他常用到但不必须的：
+- **Custom modifier functions：****自定义修饰函数**，用来修改输入的顶点数据或最终输出的片段颜色。之前[积雪](/UnityShader-积雪/)那篇就用到了vert修改(vertex displacement)
+- **Shadows and Tessellation：**给出控制shadow和tessellation的额外指令。[Tessellation](https://docs.unity3d.com/Manual/SL-SurfaceShaderTessellation.html)
+- **Code generation options：**默认情况下surf shader会将所有的光照、阴影等场景信息纳入计算，但某些情况下可能可以跳过其中一些计算，比如不应用shadow、ambient、lightmap、fog等。这样可以加速shader的加载。
+
+在``void surf``中，输入变量之一的``IN``是自定义的结构，通常会包含shader所需的变量信息。这个结构的中的**[变量命名](https://docs.unity3d.com/Manual/SL-SurfaceShaders.html)**是有要求的。
+- 注意：[贴图坐标](https://docs.unity3d.com/Manual/SL-ShaderSemantics.html)的命名需要以``uv_``(或者``uv2_``)开头，后接变量名，比如``float2 uv_ModelTex : TEXCOORD0;``。一个模型的uv是可以有好几套的，冒号后的``TEXCOORDn``中的n即意为第n套uv。
+
+![](/assets/img/line.png)
+
+### Vert/Frag Shader
+
+TBC...
 
 ![](/assets/img/line.png)
 
