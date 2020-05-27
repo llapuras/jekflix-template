@@ -107,7 +107,6 @@ fixed4 frag(v2f i) : SV_Target
 	float4 dis = tex2Dproj(_GrabTexture, UNITY_PROJ_COORD(i.grabtex)) * _EdgeColor;
   //...
 }
-
 ```
 
 - **ComputeGrabScreenPos：**输入顶点坐标获得grab texture的正确贴图坐标。
@@ -134,7 +133,9 @@ fixed4 frag(v2f i) : SV_Target
 
 ![](/assets/img/graphics/shader/WaterTexture.png)
 
-<hr>
+这一步的完整代码戳[这里](https://github.com/llapuras/ShaderLib/blob/master/Water/Water003.shader)。
+
+### 其他
 
 ps1：非常偶然地试了一张毫无关联的图，乘了一个没什么道理的参数，画面却意外还不错（感觉比水酷炫多了啊喂...戳[这里](https://github.com/llapuras/ShaderLib/blob/master/Water/edge_shine.shader)。
 
