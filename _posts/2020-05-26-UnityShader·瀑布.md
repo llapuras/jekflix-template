@@ -4,7 +4,7 @@ layout: post
 title: UnityShader·静水
 subtitle: 
 description: 
-image: /assets/img/graphics/shader/Edge_Shine.gif
+image: /assets/img/graphics/shader/edge_shine.gif
 #optimized_image: /assets/img/opengl/spongebob.jpg
 category: tech
 published: true
@@ -127,7 +127,7 @@ fixed4 frag(v2f i) : SV_Target
 
 最后一步加上一张贴图，可以营造各种风格的水面。
 
-![](/assets/img/graphics/shader/Water005.gif)
+![](/assets/img/graphics/shader/water005.gif)
 
 这里例子用的贴图↓
 
