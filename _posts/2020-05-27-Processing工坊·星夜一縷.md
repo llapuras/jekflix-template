@@ -20,3 +20,9 @@ author: llapuras13
 ![](/assets/img/graphics/processing/starry/growing.gif)
 
 ![](/assets/img/graphics/processing/starry/forstnet.gif)
+
+![](/assets/img/graphics/processing/starry/bg00.png)
+
+![](/assets/img/graphics/processing/starry/bg02.png)
+
+![](/assets/img/graphics/processing/starry/bg03.png)
