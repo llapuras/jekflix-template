@@ -55,10 +55,12 @@ Shader "ShaderName"
 - **[Tags](https://docs.unity3d.com/Manual/SL-SubShaderTags.html):**用来告知引擎渲染顺序。不写也行，有默认模式。以下是比较常用的：
   - **[Queue](https://docs.unity3d.com/Manual/SL-SubShaderTags.html)：**决定物体渲染的顺序。比如先渲染透明物体还是先渲染不透明物体。
   - **[RenderType](https://docs.unity3d.com/Manual/SL-ShaderReplacement.html)：** 一个分类tag，需要结合方法``camera.SetReplacementShader(Shader, "RenderType")``使用。用来批量替换同RenderType物体的Shader。比如物体A的RenderType是``awsl``，B的RenderType是``keke``，用来替换的shader X中有RenderType是``awsl``的SubShader，但是没有``keke``的SubShader，那么这个替换方法执行后，A物体按照shader X渲染，物体B则不被渲染。
+
 - **Pass：**一个SubShader中可以有多个Pass块，当某个SubShader被执行时，它的所有Pass都会被执行一遍。Pass中会包含一系列有关图形硬件的状态设置，常见的几种如下：
   - **[Cull](https://docs.unity3d.com/Manual/SL-CullAndDepth.html)：**剔除。Back/Front/Off
   - **[ZWrite](https://docs.unity3d.com/Manual/SL-CullAndDepth.html)：**决定pixel是否被写入depth buffer。On/Off
   - **[ZTest](https://docs.unity3d.com/Manual/SL-CullAndDepth.html)：**决定depth绘制顺序。默认为``LEqual``
+  - **[Blend](https://docs.unity3d.com/Manual/SL-Blend.html)：**透明度混合。控制贴图的alpha混合模式。
   - 注意surface shader不能写在Pass块内，只能直接写在SubShader块中，surface shader会自动被编译为多Pass。
 
 ```cpp
