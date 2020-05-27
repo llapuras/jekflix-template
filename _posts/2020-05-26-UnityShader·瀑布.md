@@ -4,7 +4,7 @@ layout: post
 title: UnityShader·水面和瀑布
 subtitle: 
 description: 
-image: /assets/img/graphics/shader/cover0.png
+image: /assets/img/graphics/shader/water101.gif
 #optimized_image: /assets/img/opengl/spongebob.jpg
 category: tech
 published: true
