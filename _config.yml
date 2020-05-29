@@ -12,13 +12,13 @@ tags:
 show_hero: false
 
 menu:
-  - title: 文章
+  - title: 文
     url: /category/article/
-  - title: 游戏
+  - title: 戏
     url: /category/project/
-  - title: 艺术
+  - title: 绘
     url: /category/art/
-  - title: 代码
+  - title: 码
     url: /category/tech/
   - title: 杂
     url: /category/other/
