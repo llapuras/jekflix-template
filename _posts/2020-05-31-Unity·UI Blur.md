@@ -4,7 +4,7 @@ layout: post
 title: UnityShader·UI Blur
 subtitle: 
 description: 
-image: /assets/img/graphics/shader/edge_shine.gif
+image: /assets/img/graphics/shader/blur_009.gif
 #optimized_image: /assets/img/opengl/spongebob.jpg
 category: tech
 published: true
