@@ -7,6 +7,7 @@ description:
 image: /assets/img/opengl/stsphere.png
 optimized_image: /assets/img/opengl/stsphere.png
 category: tech
+published: false 
 tags:
   - grapics
   - shadertoy

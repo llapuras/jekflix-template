@@ -12,15 +12,15 @@ tags:
 show_hero: false
 
 menu:
-  - title: 文
-    url: /category/article/
-  - title: 戏
+  # - title: 文
+  #   url: /category/article/
+  - title: GAME
     url: /category/project/
-  - title: 绘
+  - title: DRAW
     url: /category/art/
-  - title: 码
+  - title: TECH
     url: /category/tech/
-  - title: 杂
+  - title: 0v0
     url: /category/other/
   - title: 关于我
     url: /about

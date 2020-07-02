@@ -7,7 +7,7 @@ description: shaderlab速查手册
 image: /assets/img/graphics/shader/cover0.png
 #optimized_image: /assets/img/opengl/spongebob.jpg
 category: tech
-published: true
+published: false
 tags:
   - graphics
   - unity
