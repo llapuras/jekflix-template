@@ -17,6 +17,6 @@ description: Some description.
 
 欢迎加steam和switch好友一起玩耍σ ﾟ∀ ﾟ) ﾟ∀ﾟ)σ <br>
 **steam ID**：Legendary Lapuras<br>
-**switch ID**：sw-5454-4244-2717
+**switch ID**：sw-5454-4244-2717<br>
 **B站**：阿尔芙咸
 
