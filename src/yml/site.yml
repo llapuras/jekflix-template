@@ -1,5 +1,5 @@
-name: Llapuras
-title: Llapuras
+name: alfx
+title: alfx
 description: awsl
 tags:
   - graphcis
@@ -15,11 +15,11 @@ menu:
   #   url: /category/article/
   - title: GAME
     url: /category/project/
-  - title: DRAW
-    url: /category/art/
   - title: TECH
     url: /category/tech/
-  - title: 0v0
+  - title: GALLERY
+    url: /gallery/
+  - title: 杂物
     url: /category/other/
   - title: 关于我
     url: /about
