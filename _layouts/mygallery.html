@@ -86,7 +86,6 @@ layout: main
     </figure>
   </a>
 
-
 </div>
 
 
@@ -105,8 +104,8 @@ layout: main
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
     font-weight: 600;
-    max-width: calc(100% - 9em);
-    line-height: 1.25;
+    max-width: calc(100% - 6em);
+    line-height: 1;
     text-align: center;
     box-sizing: border-box;
   }
@@ -139,13 +138,14 @@ layout: main
   html:not(.touch) .gallery-image figcaption.visible:before, html:not(.touch) .gallery-image:hover figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .visible.mfp-title:before, .mfp-with-zoom.mfp-ready .mfp-title:before, html:not(.touch) .gallery-image figcaption.visible:after, html:not(.touch) .gallery-image:hover figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .visible.mfp-title:after, .mfp-with-zoom.mfp-ready .mfp-title:after {
     opacity: 1;
   }
+  /*caption偏移位置*/
   html:not(.touch) .gallery-image figcaption.visible:before, html:not(.touch) .gallery-image:hover figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .visible.mfp-title:before, .mfp-with-zoom.mfp-ready .mfp-title:before {
-    right: -1.5em;
-    bottom: -1.5em;
+    right: 0.4em;
+    bottom: 0.3em;
   }
   html:not(.touch) .gallery-image figcaption.visible:after, html:not(.touch) .gallery-image:hover figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .visible.mfp-title:after, .mfp-with-zoom.mfp-ready .mfp-title:after {
-    left: -1.5em;
-    top: -1.5em;
+    left: 0.4em;
+    top: 0.3em;
   }
   
   html {
