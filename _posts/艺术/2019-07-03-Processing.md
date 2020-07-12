@@ -7,6 +7,7 @@ subtitle: 有趣的图形编程语言。
 image: /assets/img/opengl/heartbeat.gif
 optimized_image: /assets/img/opengl/heartbeat.gif
 category: art
+published: false
 tags:
   - processing
   - graphics

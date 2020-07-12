@@ -5,6 +5,7 @@ title: 【MV】黑子の篮球全员
 subtitle: MagicaVoxel制作
 description: MagicaVoxel制作。
 image: /assets/img/model/title.png
+published: false
 #optimized_image: /assets/img/model/title.png
 category: art
 tags:

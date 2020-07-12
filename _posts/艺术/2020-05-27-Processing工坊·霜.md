@@ -7,7 +7,7 @@ description: 标题是瞎取的，以及...有了Processing就可以偷懒啦！
 image: /assets/img/graphics/processing/starry/forstnet.gif
 optimized_image: /assets/img/graphics/processing/starry/forstnet.gif
 category: art
-published: true
+published: false
 tags:
   - processing
   - graphics
