@@ -194,7 +194,7 @@ layout: main
     left: 0;
     right: 0;
     bottom: 0;
-    border: 16px solid rgba(0, 0, 0, 0.1);
+    border: 0px solid rgba(0, 0, 0, 0.1);/*边框相关*/
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
     will-change: border;
@@ -210,11 +210,12 @@ layout: main
   html:not(.touch) .gallery-image {
     overflow: hidden;
   }
+  /*固定边框*/
   html:not(.touch) .gallery-image:hover:before {
     border-width: 16px;
   }
   html:not(.touch) .gallery-image:hover:after {
-    border-width: 32px;
+    border-width: 0px;
   }
   .touch .gallery-image figcaption {
     top: auto;
