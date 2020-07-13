@@ -39,6 +39,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
+    "jquery-resizable-dom": "^0.35.0",
     "scrollnav": "^3.0.2"
   }
 }
