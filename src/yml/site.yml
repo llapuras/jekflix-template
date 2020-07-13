@@ -11,16 +11,19 @@ tags:
 show_hero: false
 
 menu:
-  # - title: 文
-  #   url: /category/article/
-  - title: GAME
-    url: /category/project/
-  - title: TECH
-    url: /category/tech/
+  - title: 文章
+    url: /
+  - title: Nier9
+    url: /Nier9/
+  - title: Game·场面一度十分混乱
+    url: /Nier9/
+  - title: Endless World
+    url: /Nier9/
   - title: GALLERY
     url: /gallery/
-  - title: 杂物
-    url: /category/other/
+  # - title: 杂物
+  #   url: /category/other/
   - title: 关于我
     url: /about
 email: 906130960@qq.com
+
