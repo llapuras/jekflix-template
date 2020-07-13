@@ -9,25 +9,28 @@ layout: compressed
 	<div class="frame" style="top:20;left:20;width:340">
 		<div class="topbar c5">
 			<!-- 在这里填写标题 -->
-			Nier·9
+			简介
 		<!-- <div class="maxbtn"><span></span></div> -->
 		</div>
 		<div class="content">
 		  <div class="custom-wrapper">
 			<div>
 			  <!-- 在这里填写内容 -->
-				目前在开发中的Nier:Automata同人番外游戏。</br></br>
-				游戏名暂定名称为<i>Nier·9</i>。</br></br>
-				故事以2B在废土展开的莫名旅行为主。私心向。
+  			    <h2>Nier: 9</h4>
+				状态：开发中</br>
+				工具：Unity/C#/Blender</br>		
+				试玩：N/A</br>	
+				</br>
+				Nier:Automata同人番外游戏。以2B视角在废土展开一场寻找9s的旅行。设定部分继承原作，部分架空。</br>
 		    </div>
 		  </div>
 		</div>
 	</div>
 
-	<div class="frame" style="top:260;left:20;width:340">
+	<div class="frame" style="top:320;left:20;width:340">
 		<div class="topbar c5">
 			<!-- 在这里填写标题 -->
-			大纲
+			章节
 		<!-- <div class="maxbtn"><span></span></div> -->
 		</div>
 		<div class="content">
@@ -40,9 +43,25 @@ layout: compressed
 			  03·森林</br>
 			  04·废土</br>
 			  05·庆典</br>
-			  06·塔</br>
-			  
-			  
+			  06·塔(终章)</br>	  
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	<div class="frame" style="top:550;left:20;width:340">
+		<div class="topbar c5">
+			<!-- 在这里填写标题 -->
+			DevLog
+		<!-- <div class="maxbtn"><span></span></div> -->
+		</div>
+		<div class="content">
+		  <div class="custom-wrapper">
+			<div>
+			  <!-- 在这里填写内容 -->
+			  <a href="https://www.bilibili.com/read/cv6571462" target="_blank">01·2B小姐姐模型修改和动画应用</a>
+			  </br>
+			  <a href="https://www.bilibili.com/read/cv6717859" target="_blank">02·月之泪场景复刻</a>
 		    </div>
 		  </div>
 		</div>
@@ -52,7 +71,7 @@ layout: compressed
 <div class="frame" style="top:20;left:390;width:800">
 	<div class="topbar c5">
 		<!-- 在这里填写标题 -->
-		000·纯白
+		章节00·纯白
 	 <div class="maxbtn"><span></span></div>
 	</div>
 	<div class="content">
@@ -78,7 +97,7 @@ layout: compressed
 	<div class="maxbtn"><span></span></div>
 	</div>
 	<div class="content">
-		<img src='/assets/img/game/Nier9/0002.png' width='100%'>
+		<img src='/assets/img/game/Nier9/0003.png' width='100%'>
 	</div>
   </div>
 
@@ -95,7 +114,7 @@ layout: compressed
 <div class="frame" style="top:280;left:390;width:800">
   <div class="topbar c5">
 	  <!-- 在这里填写标题 -->
-	  001·花田
+	  章节01·花田
    <div class="maxbtn"><span></span></div>
   </div>
   <div class="content">
@@ -124,7 +143,7 @@ layout: compressed
 </div>
 
 <div class="frame" style="top:300;left:1220;width:340">
-	<div class="topbar c5">Unity复刻·Lunar Tears
+	<div class="topbar c5">Unity·月之泪场景复刻
 	<div class="maxbtn"><span></span></div>
 	</div>
 	<div class="content">
@@ -141,8 +160,8 @@ layout: compressed
 	</div>
   </div>
 
-  <div class="frame" style="top:560;left:1420;width:250">
-	<div class="topbar c5">Lunar Tears' Model
+  <div class="frame" style="top:530;left:1420;width:250">
+	<div class="topbar c5">Blender·月之泪模型
 	<div class="maxbtn"><span></span></div>
 	</div>
 	<div class="content">
@@ -212,12 +231,14 @@ body{
 	min-height:600%;
 }
 	
-a {
+a{
+	color: #EE3769;	
+	text-decoration: none;
+}
+.return_btn a {
   position: fixed;
   top: 20px;
   right: 20px;
-
-  text-decoration: none;
   cursor: pointer;
   border: 1px solid #FCFAF2;
   border-radius: 8px;
@@ -226,15 +247,13 @@ a {
   padding: 0;
   outline: none;
   overflow: hidden;
-  color: #EE3769;
   box-shadow: inset 0 0 0 5em #FCFAF2;
   -webkit-transition: color 0.3s 0.1s ease-out;
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
   line-height: 250%;
-
 }
-a::before {
+.return_btn a::before {
   position: fixed;
   top: 0;
   left: 0;
@@ -253,12 +272,12 @@ a::before {
   transition: box-shadow 0.5s ease-out;
   z-index: 999;
 }
-a:hover {
+.return_btn a:hover {
   color: #FCFAF2;
   border: 1px solid #FCFAF2;
   box-shadow: inset 0 0 0 5em #EE3769;
 }
-a:hover::before {
+.return_btn a:hover::before {
   box-shadow: inset 0 0 0 5em #EE3769;
 }
 
