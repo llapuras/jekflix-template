@@ -75,8 +75,8 @@
     margin: rem(20px) auto 0;
 
     @include media(">=sm") {
-      font-size: rem(20px);
-      line-height: rem(40px);
+      font-size: rem(18px);
+      line-height: rem(28px);
       margin: rem(29px) auto 0;
     }
   }
@@ -196,7 +196,7 @@
   }
   h1 {
     font-size: rem(36px);
-    line-height: 1.4;
+    line-height: 1.2;
     @include media(">=sm") {
       font-size: rem(50px);
     }
@@ -204,7 +204,7 @@
 
   h2 {
     font-size: rem(28px);
-    line-height: 1.4;
+    line-height: 1.2;
 
     @include media(">=sm") {
       font-size: rem(37px);
@@ -213,7 +213,7 @@
 
   h3 {
     font-size: rem(22px);
-    line-height: 1.4;
+    line-height: 1.2;
 
     @include media(">=sm") {
       font-size: rem(27px);
