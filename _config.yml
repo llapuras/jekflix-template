@@ -12,15 +12,11 @@ tags:
 show_hero: false
 
 menu:
-  - title: Nier:9
-    url: /Nier9/
-  - title: 无尽世界/Endless World
-    url: /EndlessWorld/
-  - title: 我们仍未知道那天是谁拿走了钥匙
-    url: /Nier9/
-  - title: 杯面之神
-    url: /CupNoodleKami/
-  - title: GALLERY
+  - title: 游戏
+    url: /category/Project/
+  - title: 文章
+    url: /category/tech/
+  - title: 画廊
     url: /gallery/
   - title: 关于我
     url: /about
