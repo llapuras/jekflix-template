@@ -3,8 +3,8 @@ layout: main
 ---
 
 <html lang="{{ site.language }}" class="no-js">
-    {% include head.html %}
-
+  {% include head_simple.html %}
+<body>
 <div class='gallery'>
 
   <a class='gallery-link' href='/assets/img/gallery_display/1003.gif' target='_blank'>
@@ -99,7 +99,7 @@ layout: main
   </a>
 
 </div>
-
+</body>
 
 <style>
 
@@ -168,10 +168,11 @@ layout: main
   
   body {
     font-family: "Montserrat", sans-serif;
+    padding: rem(20px) 0;
   }
   
   .gallery {
-    
+
     width: 90%;
     margin: 0 auto;
 

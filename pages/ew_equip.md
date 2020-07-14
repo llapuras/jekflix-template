@@ -1,10 +1,8 @@
 ---
 layout: post_simple
 title: 无尽世界装备系统
-permalink: /lanlp/
+permalink: /ew_equip/
 ---
-
-### 构想
 
 游戏名暂定：Lorian's Teabag
 

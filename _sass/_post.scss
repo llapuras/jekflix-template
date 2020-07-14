@@ -24,17 +24,18 @@
 
     @include media(">=sm") {
       flex-basis: 70%;
-      padding: 0 rem(30px) 0 rem(10px);
+      padding: 0 rem(20px) 0 rem(10px);
     }
   }
 }
 
+/*段落上方空白（非行间距）*/
 .post-content {
   overflow-x: auto;
-  padding: rem(40px) 0;
+  padding: rem(0px) 0;
 
   &.fullwidth {
-    padding: rem(60px) rem(10px) 0;
+    padding: rem(0px) rem(10px) 0;
   }
 
   img {
@@ -72,12 +73,12 @@
     line-height: rem(30px);
     letter-spacing: 0.025rem;
     padding: 0 rem(20px);
-    margin: rem(20px) auto 0;
+    margin: rem(12px) auto 0;
 
     @include media(">=sm") {
       font-size: rem(18px);
       line-height: rem(28px);
-      margin: rem(29px) auto 0;
+      margin: rem(12px) auto 0;
     }
   }
 
