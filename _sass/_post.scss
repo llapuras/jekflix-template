@@ -73,12 +73,12 @@
     line-height: rem(30px);
     letter-spacing: 0.025rem;
     padding: 0 rem(20px);
-    margin: rem(12px) auto 0;
+    margin: rem(22px) auto 0;
 
     @include media(">=sm") {
       font-size: rem(18px);
       line-height: rem(28px);
-      margin: rem(12px) auto 0;
+      margin: rem(22px) auto 0;
     }
   }
 
@@ -188,10 +188,12 @@
   h6 {
     @include mainFont(700);
     margin-top: 0;
+    margin-bottom: 5px;
     padding-top: rem(50px);
 
     @include media(">=sm") {
       margin-top: 0;
+      margin-bottom: 5px;
       padding-top: rem(60px);
     }
   }

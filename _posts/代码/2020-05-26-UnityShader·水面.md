@@ -6,7 +6,7 @@ subtitle:
 description: 
 image: /assets/img/graphics/shader/edge_shine.gif
 #optimized_image: /assets/img/opengl/spongebob.jpg
-category: tech
+category: article
 published: false
 tags:
   - graphics

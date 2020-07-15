@@ -1,13 +1,13 @@
 ---
-date: 2019-01-02 12:26:40
+date: 2019-02-02 12:26:40
 layout: post
 title: Shader·积雪
 subtitle: 
 description: 
 image: /assets/img/graphics/shader/rim.gif
 #optimized_image: /assets/img/opengl/spongebob.jpg
-category: tech
-published: false
+category: article
+published: true
 tags:
   - graphics
   - unity

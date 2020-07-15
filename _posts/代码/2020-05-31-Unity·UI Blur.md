@@ -6,8 +6,8 @@ subtitle:
 description: 
 image: /assets/img/graphics/shader/blur_009.gif
 #optimized_image: /assets/img/opengl/spongebob.jpg
-category: tech
-published: false
+category: article
+published: true
 tags:
   - unity
   - ui
