@@ -7,7 +7,7 @@ description:
 image: /assets/img/graphics/shader/edge_shine.gif
 #optimized_image: /assets/img/opengl/spongebob.jpg
 category: article
-published: false
+published: true
 tags:
   - graphics
   - unity
