@@ -45,12 +45,12 @@ layout: main
         {% for post in posts offset: offset %}
             <article class="box-item">
                 <span class="category">
-                    <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{ post.category }}">
+                    <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{ post.category }}" target="_blank">
                         <span>{{ post.category }}</span>
                     </a>
                 </span>
                 <div class="box-body">
-                    <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="cover" href="{{ post.url | prepend: site.baseurl }}" target="_blank">
                         {% include loader.html %}
                         {% if post.optimized_image %}
                             <img src="/assets/img/placeholder.png" width="100%" height="200px" object-fit="cover" data-url="{{ post.optimized_image }}" class="preload">

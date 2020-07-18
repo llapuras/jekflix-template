@@ -12,7 +12,7 @@ show_hero: false
 
 menu:
   - title: 游戏
-    url: /category/Project/
+    url: /category/project/
   - title: 文章
     url: /category/article/
   - title: 画廊
